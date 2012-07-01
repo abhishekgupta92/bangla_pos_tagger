@@ -1,7 +1,18 @@
-bangla-pos-tagger
+bangla_pos_tagger
 =================
 
 POS Tagger for Bangla language based on Conditional Random Fields
+
+Usage
+=====
+1. Install the module
+  python setup.py install
+  
+2. Code
+  import bangla_pos_tagger
+  bangla_pos_tagger.pos_tag(query)
+  
+where query is a tokenized words for a given Bangla Sentence.
 
 Observations
 ============
